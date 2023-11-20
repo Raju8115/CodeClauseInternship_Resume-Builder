@@ -1,0 +1,108 @@
+
+@media screen and (max-width:1600px) {
+
+    .Outter-container-2{
+      display: grid;
+      justify-items: center;
+      grid-template-columns: 50% 50%;
+      max-width: 80%;
+      margin:0 auto;
+      grid-gap: 1vw;
+      padding: 10px;
+      box-shadow:rgba(131, 68, 68, 0.678) 0px 1px 4px;
+    }
+    
+    .inner-left-2{
+      width: 100%;
+      background: #d8fcbaa8;
+      height: 1100px;
+      padding: 0px 1.26vw;
+    }
+    
+    .user-name-2 h1{
+      padding: 30px 0px 16px;
+      color: red;
+      font-size: 2.4vw;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .user-role-2 p{
+      font-size: 1.3vw;
+      font-weight: bold;
+      margin-bottom : 0.8vw;
+      padding:0px 7px 0px 0px;
+    }
+    
+    .user-address-2 p{
+      padding: 10px 0px 18px;
+      width: 70%;
+      font-size: 1vw;
+    }
+    
+    .Experience-summary-2 p{
+      font-size: 1vw;
+      padding: 0px 5px 20px 0px;
+    }
+    
+    .key-skill-2 h1{
+      font-size: 1.3vw;
+      padding: 10px 10px 17px 0px;
+    }
+    
+    .skills-list-2 ul{
+      padding:0px 5px 10px 19px;
+    }
+    
+    .skills-list-2 ul li{
+      padding-top: 7px;
+      font-size: 1vw;
+    }
+    
+    .inner-right-2{
+      margin: 10px 20px;
+    }
+    
+    /* ********____RIGHT EDIT__________**************** */
+    
+    .professional-experience-2 h1{
+      padding: 0px 10px 20px 0px;
+      font-size: 1.5vw;
+      font-weight: 700;
+      width: 100%;
+    }
+    
+    .role-name-2 p{
+      font-size: 1.3vw;
+    }
+    
+    .role-location-2 p{
+      font-family :Georgia, 'Times New Roman', Times, serif;
+      font-size: 1.1vw;
+      padding: 1px 10px 10px 0px;
+    }
+    
+    .job-experience-2 ul{
+      padding: 2px 2px 10px 20px;
+    }
+    
+    .job-experience-2 ul li{
+      font-size: 1vw;
+    }
+    
+    
+    .education-2 h1{
+      font-size: 1.5vw;
+      padding: 15px 0px 10px;
+    }
+    
+    .education-qualilfication-2 p{
+      font-size: 1.3vw;
+    }
+    
+    .education-location-2 p{
+      font-size: 1.1vw;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      padding-top: 2px;
+    }
+    }
+    

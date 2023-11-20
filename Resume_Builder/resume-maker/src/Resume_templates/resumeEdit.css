@@ -1,0 +1,215 @@
+.edit-form-container{
+    display: grid;
+    grid-template-columns: 1fr 1.2fr;
+}
+
+.right-preview-side{
+    margin: 20px;
+}
+
+.left-edit-side{
+    display: grid;
+    grid-template-columns: auto auto;
+    /* max-height: 800px; */
+    padding: 10px 15px;
+    margin: 30px 0px;
+ }
+
+ .left-top h1, .left-top p{
+    padding: 0px 40px;
+ }
+
+ .left-top h1{
+    font-size: 26px;
+    font-weight: 400;
+ }
+
+ .left-top p{
+    font-size: 17px;
+    color: rgba(17, 37, 63, 0.548);
+    font-weight: 500;
+ }
+
+ .left-top {
+    box-shadow: 0px 0px 10px rgba(17, 37, 63, 0.432);
+    border-top: 5px solid blue;
+    margin: 25px 15px;
+    padding-top: 29px;
+    /* height: 651px; */
+    border-radius: 5px;
+ }
+
+.firstname-field,
+.lastname-field ,
+.job-title-field,
+.phone-field ,
+.email-field ,
+.address-field,
+.city-field ,
+.postcode-field ,
+.state-field ,
+.country-field,
+.position-startDate,
+.position-endDate,
+.company-name-field,
+.position-field{
+    padding: 20px; 
+    width: 100%;
+}
+
+.firstname-field input,
+ .lastname-field input,
+ .job-title-field input,
+ .phone-field input,
+ .email-field input,
+ .address-field input,
+ .city-field input,
+ .postcode-field input,
+ .state-field input,
+ .country-field input,
+ .position-startDate input,
+ .position-endDate input,
+ .company-name-field input,
+ .position-field input{
+    width: 100%;
+    padding: 7px;
+    border-radius: 5px;
+    /**/
+    border:1px solid rgba(17, 37, 63, 0.432);
+    outline: none;
+    margin: 5px 0px;
+}
+
+
+.firstname-field label,
+ .lastname-field label,
+ .job-title-field label,
+ .phone-field label,
+ .email-field label,
+ .address-field label,
+ .city-field label,
+ .postcode-field label,
+ .state-field label,
+ .country-field label{
+    font-size: 17px;
+    padding: 0px 4px;
+ }
+
+
+ .personal-button{
+    background: blue;
+    color: white;
+    padding: 10px 20px;
+    /* display: inline-block; */
+    width: 93px;
+    border-radius:8px;
+    border: none;
+    outline: none; 
+    position: relative;
+ }
+
+
+
+ .work-summary textarea{
+    width: 200%;
+    font-size: 17px;
+    outline: none;
+    border: 1px solid rgba(17, 37, 63, 0.548);
+    border-radius: 5px;
+    margin-top: 5px;
+    padding: 10px 11px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    margin:0px 
+ }
+
+ .positions-container{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   padding: 0px 15px;
+ }
+
+ .add-button{
+   margin:10px 20px 3px;
+   padding:8px 10px;
+   border-radius: 5px;
+   background: #ee3131;
+   outline: none;
+   border: none;
+   color: white;
+   cursor: pointer;
+   display: block;
+ }
+
+ .text-area-experience{
+   width: 100%;
+   border-radius: 5px;
+   border: 1px solid rgba(0, 0, 0, 0.377);
+   outline: none;
+   font-size: 17px;
+   font-family: Arial, Helvetica, sans-serif;
+   padding: 10px;
+ }
+ .text-area-experience:focus{
+   border:  1px solid dodgerblue;
+ }
+
+ .experience-sum{
+   padding: 15px;
+ }
+
+ .key-skills-fields{
+   padding: 10px 20px;
+ }
+
+ .key-skills-fields label{
+   display: block;
+ }
+
+ .key-skills-fields input{
+   width: 70%;
+   margin: 5px 50px 0px 0px;
+   padding: 5px 9px;
+   border: 1px solid rgba(0, 0, 0, 0.404);
+   outline: none;
+   border-radius: 5px;
+ }
+
+ .key-skills-fields button{
+   padding: 7px 10px;
+   background: #ee3131;
+   border: none;
+   color: white;
+   border-radius: 5px;
+   cursor: pointer;
+ }
+
+ .education-details-field{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   padding: 10px 15px ;
+   grid-gap:40px
+ }
+
+ .completed-date input,
+ .joined-date input,
+ .university-name input,
+ .qualification-name input{
+   width: 100%;
+   padding: 7px 10px;
+   margin-top: 4px;
+   border-radius: 5px;
+   border: 1px solid rgba(0, 0, 0, 0.404);
+   outline: none; 
+ }
+
+ .download-save{
+   padding: 10px 15px;
+   background: #2fa8f8;
+   border: none;
+   outline: none;
+   color: white;
+   margin: 10px 25px;
+   float: right;
+   border-radius: 6px;
+ }

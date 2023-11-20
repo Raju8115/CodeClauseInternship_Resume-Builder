@@ -1,0 +1,86 @@
+.form-container{
+    margin: 80px auto;
+    max-width: 860px;
+    padding: 40px 20px;
+    padding-top: 52px;
+    box-shadow: 0px 0px 8px 8px rgba(161, 103, 103, 0.18);
+    position: relative;
+    border-radius: 10px;
+    height: fit-content;
+}   
+
+.form-container .datasubmit{
+    /* float: right; */
+    float: right;
+    position: absolute;
+    right: 45px;
+    outline: none;
+    border: 2px solid rgb(45, 152, 253);
+    color: rgb(45, 152, 253);
+    background: transparent;
+    padding: 8px 25px;
+    font-size: 17px;
+    border-radius: 7px;
+    font-weight: bold;
+    top:60px
+}
+
+.form{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.form .input{
+    display: block;
+    width: 100%;
+    padding: 7px;
+    margin-top: 10px;
+}
+
+.entity{
+    margin: 15px;
+}
+.input{
+    border: 1px solid rgba(63, 57, 57, 0.603);
+    outline: none;
+    border-radius: 5px;
+    color: rgb(22, 22, 48);
+}
+.input:focus{
+    border: 1px solid rgba(0, 0, 255, 0.432);
+}
+
+.header-name h1{
+    font-size: 26px;
+    font-weight: 600;
+    margin: 0px 16px;
+    color: rgba(5, 5, 65, 0.836);
+}
+
+.password-header h1{
+    font-size: 26px;
+    font-weight: 600;
+    color: rgba(5, 5, 65, 0.836);
+    text-align: justify;
+}
+
+.input{
+    display: block;
+    width: 100%;
+    padding: 7px;
+    margin-top: 10px;
+}
+.password-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.changePassword{
+    font-size: 17px;
+    color: rgb(42, 144, 228);
+    text-align: left;
+    margin-top: 40px;
+    font-weight: 600;
+    padding: 10px 20px;
+    cursor: pointer;
+}

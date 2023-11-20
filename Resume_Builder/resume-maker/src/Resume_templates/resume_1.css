@@ -1,0 +1,137 @@
+body{
+  background-color: white;
+}
+
+.Outter-container{
+  display: grid;
+  justify-items: center;
+  grid-template-columns: 40% 60%;
+  max-width: 100%;
+  margin:0 auto;
+  grid-gap: 1vw;
+  padding: 10px;
+  border: 1px solid rgb(91, 91, 221);
+  border-radius: 5px;
+  /* box-shadow:rgba(131, 68, 68, 0.678) 0px 1px 4px; */
+}
+
+.inner-left{
+  width: 100%;
+  background: #53757517;
+  height: 100%;
+  padding: 0px 1.26vw;
+  height: 1100px;
+}
+
+.user-name h1{
+  padding: 30px 0px 16px;
+  color: rgb(9, 17, 9);
+  font-size: 2.4vw;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.user-role p{
+  font-size: 1.3vw;
+  font-weight: bold;
+  margin-bottom : 0.8vw;
+  padding:0px 0px 0px 0px;
+}
+
+.user-address p{
+  padding: 10px 0px 18px;
+  width: 100%;
+  font-size: 1vw;
+}
+
+.Experience-summary p{
+  font-size: 1vw;
+  padding: 0px 5px 20px 0px;
+}
+
+.key-skill h1{
+  font-size: 1.3vw;
+  padding: 10px 10px 17px 0px;
+}
+
+.skills-list ul{
+  padding:0px 5px 10px 19px;
+}
+
+.skills-list ul li{
+  padding-top: 7px;
+  font-size: 1vw;
+}
+
+.inner-right{
+  margin: 10px 20px;
+}
+
+/* ********____RIGHT EDIT__________**************** */
+
+.professional-experience h1{
+  padding: 0px 10px 20px 0px;
+  font-size: 1.5vw;
+  font-weight: 700;
+  width: 100%;
+}
+
+.role-name p{
+  font-size: 1.3vw;
+}
+
+.role-location p{
+  font-family :Georgia, 'Times New Roman', Times, serif;
+  font-size: 1.1vw;
+  padding: 1px 10px 10px 0px;
+}
+
+.job-experience ul{
+  padding: 2px 2px 10px 20px;
+}
+
+.job-experience ul li{
+  font-size: 1vw;
+}
+
+
+.education h1{
+  font-size: 1.5vw;
+  padding: 7px 0px 10px;
+}
+
+.education-qualilfication p{
+  font-size: 1.2vw;
+}
+
+.education-location p{
+  font-size: 1vw;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding-top: 2px;
+}
+
+/* ***********____________________EDIT SECTION_______________________***********************/
+
+.generate-pdf-button{
+  padding: 10px 20px;
+  border: none;
+  outline: none;
+  background-color: rgb(31, 241, 31);
+  color: white;
+  border-radius: 5px;
+  float: right;
+  margin-top: 10px;
+  font-size: 15px;
+  font-weight: 600;
+}
+@media print {
+  #resume-container {
+    background-color: white;
+    box-shadow: none;
+    margin-right: 5px;
+  }
+
+  body{
+    background-color: white;
+  }
+  /* Add other print-specific styles */
+}
