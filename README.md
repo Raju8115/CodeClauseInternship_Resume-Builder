@@ -24,7 +24,6 @@ This is a web application for building and managing resumes. Users can authentic
 
 - **Frontend:**
   - React.js
-  - [Any additional libraries or frameworks]
 
 - **Backend:**
   - Django
